@@ -144,3 +144,47 @@ body {
         stroke-dashoffset: -88;
     }
 }
+
+/*
+.preloader--3 circle {
+  stroke: #ffc0cb;
+  stroke-width: 2px;
+}
+
+.preloader--3 circle:first-child {
+  stroke-dasharray: 100px 63px;
+  animation: circle-outer 2s linear infinite;
+}
+
+.preloader--3 circle:nth-child(2) {
+  stroke-dasharray: 70px 55px;
+  animation: circle-middle 2s linear infinite;
+}
+
+.preloader--3 circle:last-child {
+  stroke-dasharray: 50px 38px;
+  animation: circle-inner 2s linear infinite;
+}
+
+@keyframes circle-outer {
+  to {
+    stroke-dashoffset: 163px;
+  }
+}
+
+@keyframes circle-middle {
+  to {
+    stroke-dashoffset: -125px;
+  }
+}
+
+@keyframes circle-inner {
+  from {
+    stroke-dashoffset: 44px;
+  }
+
+  to {
+    stroke-dashoffset: 132px;
+  }
+}
+*/
