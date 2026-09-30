@@ -1,3 +1,7 @@
+:root {
+    --offset: 184px;
+    --time: 2s;
+}
 
 body {
     margin: 0;
@@ -15,4 +19,12 @@ body {
     padding: 1.5rem;
     border: 2px solid #ff64a8;
     border-radius: 10px;
+}
+
+.preloader--1 {
+    stroke: #ff64a8;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-dasharray: var(--offset);
+    stroke-dashoffset: 0;
 }
